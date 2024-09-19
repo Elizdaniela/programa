@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje Enviado</title>
+    <link rel="stylesheet" href="/static/css/estilo.css">
+</head>
+<body>
+    <center>
+        <h1>Gracias, {{ name }}!</h1>
+        <p>Hemos recibido tu mensaje y te contactaremos pronto.</p>
+        <p><strong>Correo:</strong> {{ email }}</p>
+        <p><strong>Teléfono:</strong> {{ telefono }}</p>
+        <br>
+        <a href="{{ url_for('index') }}">Volver a la página principal</a>
+    </center>
+</body>
+</html
